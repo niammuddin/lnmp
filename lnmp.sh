@@ -1,4 +1,5 @@
 !#/bin/bash
+
 echo "persiapan!"
 echo "update!"
 apt-get update
