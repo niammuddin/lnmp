@@ -1,9 +1,8 @@
-!#/bin/bash
+#!/bin/bash
 
 echo "persiapan!"
-echo "update!"
+echo "update OS!"
 apt-get update
-apt-get upgrade
 
 echo "proses menambah repositori nginx terbaru!"
 apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 0x8b3981e7a6852f782cc4951600a6f0a3c300ee8c
